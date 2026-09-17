@@ -20,8 +20,9 @@ Markdown remains the readable source of truth, with no plugin required. Version 
 ## Everyday use
 
 - Prepare for a 1:1 with past conversations, commitments, and open questions in view.
-- Return to a product question without losing the decisions and tradeoffs that shaped it.
-- Develop an idea by brainstorming, asking a specialist skill for critique, and saving the resulting decision or learning.
+- Turn meetings, messages, research, and issue history into a plan, update, brief, or guide.
+- Shape and test product direction through research, a prototype, critique, and a durable decision.
+- Give a separate session a bounded job, review its output, and bring the useful result back.
 - Resume work after a few days without rebuilding the context from scratch.
 
 ## Who this is for
