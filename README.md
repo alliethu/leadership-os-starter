@@ -1,17 +1,25 @@
 # Leadership OS starter
 
-A small, Markdown-first system for building durable leadership context with AI.
+A small, Markdown-first way to keep useful leadership context over time.
 
-Leadership work moves between people, strategy, product, technology, and hands-on building. The context behind those decisions is usually scattered across notes and memory. This starter gives that context a simple home without asking an agent to become the decision maker.
+Leadership work rarely stays in one lane. A morning might move from a 1:1 to a product question, a technical deep dive, and hands-on building. The details that make those conversations useful are often scattered across notes or left in memory.
+
+This starter gives that context a simple home. AI can help organize evidence, notice patterns, and draft options, but you still make the calls.
 
 The practice is a loop:
 
-1. Evidence becomes current context.
-2. Purpose-built skills apply bounded judgment.
-3. Useful outputs become decisions or action.
-4. Outcomes are written back so future work starts with better context.
+1. Save the evidence that will matter later.
+2. Use a focused skill to work through a specific task.
+3. Turn useful output into a decision, action, or open question.
+4. Write confirmed outcomes back so the next conversation starts with better context.
 
-Everything is readable without a plugin. Version 1 has no integrations, credentials, database, dashboard, or scheduled automation.
+Markdown remains the readable source of truth, with no plugin required. Version 1 has no integrations, credentials, database, dashboard, or scheduled automation.
+
+## Everyday use
+
+- Prepare for a 1:1 with past conversations, commitments, and open questions in view.
+- Return to a product question without losing the decisions and tradeoffs that shaped it.
+- Resume work after a few days without rebuilding the context from scratch.
 
 ## Who this is for
 
@@ -25,24 +33,24 @@ Use this starter if you lead people or work and want to:
 
 ## How this differs from a second brain
 
-A second brain usually optimizes for collecting and finding information. A leadership OS optimizes for responsible continuity of judgment.
+A second brain usually helps collect and find information. A leadership OS keeps the context behind your work usable as situations change.
 
 | Collection system | Leadership OS |
 | --- | --- |
-| Stores useful material | Maintains current context from cited evidence |
-| Retrieves related notes | Applies a named, bounded workflow |
-| Produces summaries | Separates facts, interpretation, decisions, and open questions |
-| Ends at an output | Writes confirmed outcomes back into the system |
+| Stores useful material | Keeps a current view tied to evidence |
+| Retrieves related notes | Uses a focused skill with clear limits |
+| Produces summaries | Separates facts, interpretation, decisions, and questions |
+| Ends at an output | Saves confirmed outcomes for next time |
 | Treats more capture as progress | Keeps only context that improves future leadership work |
 
-This is not a meeting summarizer, knowledge graph, or AI chief of staff. The agent can organize evidence, surface patterns, and draft options. The leader remains accountable for interpretation, decisions, people actions, and external communication.
+This is not a meeting summarizer, knowledge graph, or AI chief of staff. The agent helps you work with context. You remain responsible for interpretation, decisions, people actions, and external communication.
 
 ## Architecture
 
 ```mermaid
 flowchart LR
     E[Raw evidence] --> C[Current context]
-    C --> S[Purpose-built skill]
+    C --> S[Focused skill]
     S --> O[Draft output]
     O --> A{Approval needed?}
     A -->|No| W[Allowed writeback]
@@ -52,7 +60,7 @@ flowchart LR
     D --> C
 ```
 
-Raw logs preserve history. Living digests hold the current picture. Profiles hold durable context. Decision records capture commitments and rationale. Skills and workflows define how an agent may move between them. See [ARCHITECTURE.md](ARCHITECTURE.md) for the full model.
+Raw logs preserve history. Living digests hold the current picture. Profiles hold context that stays useful. Decision records capture commitments and rationale. Skills and workflows set clear limits on how an agent may use and update them. See [ARCHITECTURE.md](ARCHITECTURE.md) for the full model.
 
 ## Quick start in under 10 minutes
 
@@ -60,7 +68,7 @@ Raw logs preserve history. Living digests hold the current picture. Profiles hol
 2. **Minutes 2 to 4:** Open [`prompts/bootstrap.md`](prompts/bootstrap.md) with your AI tool and answer one question at a time.
 3. **Minutes 5 to 6:** Save the resulting durable context in [`me/_profile.md`](me/_profile.md).
 4. **Minutes 7 to 8:** Add current facts and source references to [`me/weekly-digest.md`](me/weekly-digest.md).
-5. **Minutes 9 to 10:** Run the first prompt below and approve only the writeback you want to keep.
+5. **Minutes 9 to 10:** Run the first prompt below and approve only the updates you want to keep.
 
 Start with low-sensitivity material. Read [PRIVACY.md](PRIVACY.md) before adding information about another person.
 
@@ -118,7 +126,7 @@ Start with low-sensitivity material. Read [PRIVACY.md](PRIVACY.md) before adding
 
 ## Skills
 
-Skills turn stored context into a repeatable practice. Each skill names its required evidence, limits its workflow, defines an output shape, and states what may be written without approval.
+Skills are small instruction sets for recurring tasks. Each one names the evidence it needs, the steps it may take, the output it should produce, and what needs your approval before it is saved.
 
 - [`weekly-leadership-review`](.github/skills/weekly-leadership-review/SKILL.md) connects the past week to current priorities and decisions.
 - [`manager-coaching-partner`](.github/skills/manager-coaching-partner/SKILL.md) prepares evidence-based coaching without diagnosing or making people decisions.
@@ -145,10 +153,10 @@ The practical policy is in [PRIVACY.md](PRIVACY.md).
 Keep each stage until it feels reliable.
 
 1. **Manual context:** Maintain profiles, logs, digests, and decisions in Markdown.
-2. **Repeatable judgment:** Customize skills and run the documented workflows by hand.
+2. **Repeatable practice:** Customize skills and run the documented workflows by hand.
 3. **Assisted capture:** Add local, reviewable helpers that draft entries from user-provided material.
 4. **Selective connections:** Consider read-only access to approved sources with clear provenance and retention rules.
-5. **Bounded automation:** Automate only stable tasks, keep visible logs, and require approval for external or consequential actions.
+5. **Careful automation:** Automate only stable tasks, keep visible logs, and require approval for external or consequential actions.
 
 Slack, WorkIQ, email, dashboards, databases, and scheduled workflows are possible later upgrades. They are intentionally not implemented in version 1.
 
