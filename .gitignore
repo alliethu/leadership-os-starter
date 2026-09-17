@@ -1,0 +1,29 @@
+# Operating systems
+.DS_Store
+Thumbs.db
+
+# Editors
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+
+# Local AI and tool state
+.copilot/
+.cursor/
+.claude/
+
+# Temporary output
+*.log
+tmp/
+temp/

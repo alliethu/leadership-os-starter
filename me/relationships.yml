@@ -1,0 +1,12 @@
+version: 1
+
+# Keep this registry neutral. It routes to context and does not score people.
+relationships:
+  - id: example-person
+    display_name: River Example
+    fictional: true
+    relationship: Example direct report
+    profile: ../people/example-person/_profile.md
+    digest: ../people/example-person/digest.md
+    review_cadence: monthly
+    notes: Demonstration record only. Replace or remove when starting a private system.
