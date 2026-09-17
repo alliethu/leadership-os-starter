@@ -6,6 +6,8 @@ Leadership work rarely stays in one lane. A morning might move from a 1:1 to a p
 
 This starter gives that context a simple home. AI can help organize evidence, notice patterns, and draft options, but you still make the calls.
 
+It is designed to work especially well in the GitHub Copilot app, where conversation, repository files, focused skills, working artifacts, and separate sessions can stay connected. The Markdown files remain portable and readable without Copilot.
+
 The practice is a loop:
 
 1. Save the evidence that will matter later.
@@ -65,7 +67,7 @@ Raw logs preserve history. Living digests hold the current picture. Profiles hol
 ## Quick start in under 10 minutes
 
 1. **Minute 1:** Click **Use this template** to create a private repository, or download and copy the files into a private folder. Do not add personal leadership context to a public fork.
-2. **Minutes 2 to 4:** Open [`prompts/bootstrap.md`](prompts/bootstrap.md) with your AI tool and answer one question at a time.
+2. **Minutes 2 to 4:** Open the repository in GitHub Copilot and use [`prompts/bootstrap.md`](prompts/bootstrap.md) to answer one question at a time.
 3. **Minutes 5 to 6:** Save the resulting durable context in [`me/_profile.md`](me/_profile.md).
 4. **Minutes 7 to 8:** Add current facts and source references to [`me/weekly-digest.md`](me/weekly-digest.md).
 5. **Minutes 9 to 10:** Run the first prompt below and approve only the updates you want to keep.
