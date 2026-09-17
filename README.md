@@ -6,7 +6,7 @@ Leadership work rarely stays in one lane. A morning might move from a 1:1 to a p
 
 This starter gives that context a simple home. AI can help organize evidence, notice patterns, and draft options, but you still make the calls.
 
-It is designed to work especially well in the GitHub Copilot app, where conversation, repository files, focused skills, working artifacts, and separate sessions can stay connected. The Markdown files remain portable and readable without Copilot.
+Most of the work this starter supports is not code. It is designed for the GitHub Copilot app, where leaders and builders can keep conversation, repository files, focused skills, working artifacts, and separate sessions connected. The Markdown files remain portable and readable without Copilot.
 
 The practice is a loop:
 
