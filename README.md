@@ -43,7 +43,7 @@ A second brain usually helps collect and find information. A leadership OS keeps
 | Ends at an output | Saves confirmed outcomes for next time |
 | Treats more capture as progress | Keeps only context that improves future leadership work |
 
-It can provide some of the continuity people associate with an AI chief of staff, but it is not an autonomous assistant acting on your behalf. The agent helps you work with context. You remain responsible for interpretation, decisions, people actions, and external communication.
+This is not a meeting summarizer or knowledge graph, and it is not an autonomous assistant acting on your behalf. The agent helps you work with context. You remain responsible for interpretation, decisions, people actions, and external communication.
 
 ## Architecture
 
@@ -157,6 +157,8 @@ Keep each stage until it feels reliable.
 3. **Assisted capture:** Add local, reviewable helpers that draft entries from user-provided material.
 4. **Selective connections:** Consider read-only access to approved sources with clear provenance and retention rules.
 5. **Careful automation:** Automate only stable tasks, keep visible logs, and require approval for external or consequential actions.
+
+A later version can add a nightly review across approved sources. It should update only the context that matters, say when a source is incomplete, verify exact outcomes, and propose changes without silently rewriting the leader's plan.
 
 Slack, WorkIQ, email, dashboards, databases, and scheduled workflows are possible later upgrades. They are intentionally not implemented in version 1.
 
