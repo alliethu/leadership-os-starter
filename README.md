@@ -64,7 +64,7 @@ Raw logs preserve history. Living digests hold the current picture. Profiles hol
 
 ## Quick start in under 10 minutes
 
-1. **Minute 1:** Fork or copy this repository into a private location for personal use.
+1. **Minute 1:** Click **Use this template** to create a private repository, or download and copy the files into a private folder. Do not add personal leadership context to a public fork.
 2. **Minutes 2 to 4:** Open [`prompts/bootstrap.md`](prompts/bootstrap.md) with your AI tool and answer one question at a time.
 3. **Minutes 5 to 6:** Save the resulting durable context in [`me/_profile.md`](me/_profile.md).
 4. **Minutes 7 to 8:** Add current facts and source references to [`me/weekly-digest.md`](me/weekly-digest.md).
