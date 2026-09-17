@@ -43,7 +43,7 @@ A second brain usually helps collect and find information. A leadership OS keeps
 | Ends at an output | Saves confirmed outcomes for next time |
 | Treats more capture as progress | Keeps only context that improves future leadership work |
 
-This is not a meeting summarizer, knowledge graph, or AI chief of staff. The agent helps you work with context. You remain responsible for interpretation, decisions, people actions, and external communication.
+It can provide some of the continuity people associate with an AI chief of staff, but it is not an autonomous assistant acting on your behalf. The agent helps you work with context. You remain responsible for interpretation, decisions, people actions, and external communication.
 
 ## Architecture
 
