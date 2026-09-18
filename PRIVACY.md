@@ -6,6 +6,8 @@ A leadership OS becomes more useful as it gains context, which also increases th
 
 Store only work-relevant information that a person would reasonably expect to support the working relationship. Prefer observable events, stated preferences, agreed goals, and confirmed commitments.
 
+Employer policy and applicable law govern workplace records whether they are kept in a private GitHub repository, a local Markdown folder, or another note-taking tool. Check those requirements before adding real people context or using it with AI.
+
 Do not store:
 
 - diagnoses, personality labels, or guesses about motivation
@@ -81,6 +83,8 @@ Assume a populated leadership OS is private. Before publishing any part:
 6. Ask whether the remaining detail is necessary, not merely interesting.
 
 This starter repository is designed to be public. The personal system created from it should use the privacy level appropriate to its content.
+
+This guidance is a practical starting point, not legal or HR approval.
 
 ## Retention and correction
 

@@ -76,6 +76,8 @@ Raw logs preserve history. Living digests hold the current picture. Profiles hol
 
 Start with low-sensitivity material. Read [PRIVACY.md](PRIVACY.md) before adding information about another person.
 
+**Privacy check:** A private repository is not automatically an approved place for employee data. Before adding real people context or using it with AI, check your employer's policies and applicable privacy requirements. If approval is unclear, keep the system focused on your own work, decisions, and non-sensitive project context.
+
 ## First three prompts
 
 1. `Read README.md, PRIVACY.md, me/_profile.md, and me/weekly-digest.md. Help me identify the three leadership threads that most need attention this week. Separate facts, interpretation, and questions. Do not edit files.`
