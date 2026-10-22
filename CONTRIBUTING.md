@@ -12,6 +12,8 @@ Contributions should make the leadership practice clearer, safer, or easier to a
 - Do not add required credentials, databases, dashboards, or vendor integrations to version 1.
 - Use warm, direct, sentence-cased language. Avoid hype and em dashes.
 
+Follow [the accessibility guidance](ACCESSIBILITY.md#contributing-accessible-content) when changing documentation, templates, or skills. Report accessibility barriers using [the reporting steps](ACCESSIBILITY.md#reporting-a-barrier).
+
 ## Making a change
 
 1. Explain the user need the change addresses.

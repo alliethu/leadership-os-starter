@@ -123,6 +123,7 @@ Start with low-sensitivity material. Read [PRIVACY.md](PRIVACY.md) before adding
 │       ├── digest.md
 │       └── meeting-log.md
 ├── .gitignore
+├── ACCESSIBILITY.md
 ├── ARCHITECTURE.md
 ├── CONTRIBUTING.md
 ├── LICENSE
@@ -171,5 +172,7 @@ Slack, WorkIQ, email, dashboards, databases, and scheduled workflows are possibl
 ## Contributing
 
 Keep the starter compact, portable, and safe to make public. See [CONTRIBUTING.md](CONTRIBUTING.md).
+
+See [ACCESSIBILITY.md](ACCESSIBILITY.md) for accessibility guidance and how to report barriers.
 
 Licensed under the [MIT License](LICENSE).
